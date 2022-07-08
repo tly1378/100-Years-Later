@@ -1,0 +1,30 @@
+<color="red">可莉,这是一段富文本的使用教程。,keli,是
+<color="red">可莉,"最常用的富文本包括一下内容：
+粗体：<b>Bold</b>
+斜体：<i>Italics</i>
+下划线：<u>Underline</u>
+删除线：<s>Strikethrough</s>",keli,是
+<color="red">可莉,"设定字体大小：<size=48>Point size 48</size>
+设置字体相对大小：<size=+18>Point size increased by 18</size>
+设置字体相对大小：<size=-18>Point size decreased by 18</size>
+设置偏移距离：<pos=5.5>Characters positioned about 5.5 characters from left side.",keli,是
+<color="red">可莉,"设置偏移距离：<pos=5.5>Characters positioned about 5.5 characters from left side.
+设置颜色：<color=yellow>Yellow text</color>",keli,是
+<color="red">可莉,除此之外，还有……,keli,是
+<color="red">可莉,上标：x<sup>2</sup>+y<sup>2</sup> = 1,keli,是
+<color="red">可莉,下标：H<sub>2</sub>+O<sub>2</sub>=H<sub>2</sub>O,keli,是
+<color="red">可莉,"高亮：HIA<mark=#ffff0040>Highlighting</mark>HI
+设置颜色：<color=yellow>Yellow text</color>",keli,是
+<color="blue">Z23,"<align=""right"">居右
+<align=""center"">居中
+<align=""left"">居左
+<align=justified>同时对齐两端",z23,否
+<color="blue">Z23,"<alpha=#FF>透明度
+<alpha=#CC>透明度
+<alpha=#AA>透明度
+<alpha=#88>透明度
+<alpha=#66>透明度",z23,否
+<color="blue">Z23,<line-height=75>测试 </line-height>,z23,否
+<color="blue">Z23,<size=75%>测试 <size=1.5em>测试 </size>,z23,否
+<color="blue">Z23,更多用法可以查阅文档http://digitalnativestudios.com/textmeshpro/docs/rich-text/,z23,否
+<color="blue">Z23,拜拜~,z23,否
