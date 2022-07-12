@@ -21,7 +21,7 @@ public class DialogueData : ScriptableObject
     public string filename;
     public List<Dialogue> GetDialogue(string filename)
     {
-        List<List<string>> table = CSVReader.Read("Assets/Resources/Dialogue/" + filename, System.Text.Encoding.UTF8);
+        List<List<string>> table = CSVReader.Read("Assets/ScriptableObjects/Dialogue/" + filename, System.Text.Encoding.UTF8);
         List<Dialogue> dialogues = new List<Dialogue>();
         foreach (List<string> line in table)
         {

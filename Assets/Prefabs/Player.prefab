@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6346404166258603526}
   - component: {fileID: 6346404166258603527}
   - component: {fileID: 6346404166258603520}
+  - component: {fileID: 7273645888741060378}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -117,20 +118,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff6889fcb9a6f548892fb77fbab7e9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 0
+  hp: 3
   exp: 0
-  maxExp: 0
+  maxExp: 150
   level: 0
   weapon: {fileID: 0}
+  faction: 1
   hp_panel: {fileID: 0}
-  hpSample: {fileID: 0}
+  hpSample: {fileID: 4613714392804611773, guid: 5023ac87216458342a4c40e74e983c79, type: 3}
   direction_joystick: {fileID: 0}
   fire_joystick: {fileID: 0}
   walkingSpeed: 3
   runningSpeed: 5
   rollingSpeed: 10
   rollingTime: 0.2
-  isGhostable: 0
+  isGhostable: 1
   invincibleTime: 1
 --- !u!70 &6346404166258603527
 CapsuleCollider2D:
@@ -169,3 +171,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &7273645888741060378
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346404166258603578}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eaa439c1e84e04545a0d7a8dab1c35f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

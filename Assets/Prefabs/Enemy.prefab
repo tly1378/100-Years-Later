@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 6839702768772256745}
   - component: {fileID: 6839702768772256749}
   - component: {fileID: 5229020778721739421}
+  - component: {fileID: 3657219254919177664}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -199,6 +200,7 @@ MonoBehaviour:
   maxExp: 0
   level: 0
   weapon: {fileID: 6839702768957031615}
+  faction: 0
   walkingSpeed: 1
 --- !u!50 &6839702768772256749
 Rigidbody2D:
@@ -234,6 +236,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 2148667667705278431}
+  image: {fileID: 5573148033631984825}
+--- !u!95 &3657219254919177664
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6839702768772256744}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eaa439c1e84e04545a0d7a8dab1c35f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7161447149489528717
 GameObject:
   m_ObjectHideFlags: 0
